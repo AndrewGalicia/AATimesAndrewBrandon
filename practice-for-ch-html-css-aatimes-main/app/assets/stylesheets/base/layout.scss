@@ -11,22 +11,22 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	background-color: rgb(97, 97, 119);
+	border-color: blue($color: #da4040);
+	color: white;
+	font-weight: bold;
+	padding: 4px;
+	border-radius: 3px;
 	// transition:
-	// font-family:
+	font-family: sans-serif;
 	// text-transform:
-	// font-size:
+	// font-size: 12px;
 	// text-align:
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $lightest-gray;
+	border-color: $lightest-gray;
 }
 
 /*
