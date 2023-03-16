@@ -5,27 +5,29 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  // margin:
-  // padding:
-  // border:
-  // outline:
-  // font:
+  
+  margin:  0;
+  padding:0;
+  border:0;
+  outline:0;
+  font: inherit;
   // color:
-  // text-align:
+  // text-align: 
   // text-decoration:
-  // vertical-align:
+  vertical-align: baseline;
   // box-sizing:
   // background:
+  box-sizing: inherit;
 }
 
 ol, ul {
-  // list-style:
+  list-style:none;
 }
 
 img {
-  // display:
-  // width:
-  // height:
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 input[type="password"],
@@ -34,6 +36,7 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
+  
   /*
   Get rid of native styling. Read more here:
   http://css-tricks.com/almanac/properties/a/appearance/
@@ -45,11 +48,13 @@ button {
 
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer
 }
 
 /* Clearfix */
 
 .group:after {
-  // ...
+  content: "";
+  clear: both;
+  display: table;
 }
