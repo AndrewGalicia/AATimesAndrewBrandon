@@ -1,0 +1,43 @@
+@use '../variables' as *;
+
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: relative;
+    font-family: $sans-serif;
+    justify-content: space-around;
+    font-size: 13px;
+    height: 30px;
+    color: black;
+
+    ul {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+    li {
+        margin-left: 10px;
+            // margin-right: 10px;
+        // border-right: 1px solid $light-gray;
+    }
+
+    li:last-child {
+        text-decoration: underline;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        background-color: rgba(160, 160, 160, 0.589);
+    }
+
+   
+}
+
